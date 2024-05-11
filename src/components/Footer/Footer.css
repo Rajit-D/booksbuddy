@@ -1,0 +1,57 @@
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for the logo */
+footer img {
+  width: 150px;
+  /* Adjust the width of the logo */
+  height: 100px;
+}
+
+/* Style for contact information */
+footer p {
+  margin-top: 10px;
+}
+
+/* Style for sections with links */
+footer div:not(:first-child) {
+  margin-top: 20px;
+  flex: 1;
+}
+
+footer h4 {
+  color: #ffcc00;
+  margin-right: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 8px;
+}
+
+/* Style for social media icons */
+footer div:last-child {
+  margin-top: 20px;
+}
+
+footer a {
+  margin-right: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover effect for social media icons */
+footer a:hover {
+  color: #ffcc00;
+}

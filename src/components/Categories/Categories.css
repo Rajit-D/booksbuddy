@@ -1,0 +1,62 @@
+/*Categories style*/
+
+/* Style for the Categories section */
+#categories {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .books-category {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .categories-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ff2323;
+    /* Choose your desired color */
+  }
+  
+  /* Style for the category cards */
+  /* Style for the category cards */
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    /* Adjust the height to your preference */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  

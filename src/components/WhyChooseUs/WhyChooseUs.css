@@ -1,0 +1,78 @@
+/* Style for the 'Why Choose BooksBuddy?' section */
+#why-choose-booksbuddy {
+  background-color: #f8f8f8;
+  /* Set background color as needed */
+  padding: 80px 0;
+  /* Adjust padding as needed */
+}
+
+.container {
+  width: 80%;
+  /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  flex: 0 0 48%;
+  /* Adjust column width as needed */
+}
+
+/* Style for the text content */
+.section-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff2323;
+}
+
+.section-subheading {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.feature-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.feature-list li {
+  margin-bottom: 20px;
+}
+
+.feature-list i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ff2323;
+  /* Set icon color as needed */
+}
+
+/* Style for the icon section */
+.icon-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-section i {
+  font-size: 36px;
+  margin: 20px;
+  color: #ff2323;
+  /* Set icon color as needed */
+}
+
+.pic-choose {
+  max-width: 100%;
+  /* Ensure the image doesn't exceed its container */
+  height: 250px;
+  /* Maintain the aspect ratio of the image */
+  display: block;
+  /* Ensure the image is displayed as a block element */
+  margin: 0 auto;
+  /* Center the image within its container */
+}
