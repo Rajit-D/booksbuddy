@@ -5,6 +5,7 @@ import heroImg from "../../assets/images/hero-image.png";
 import { ImBooks } from "react-icons/im";
 import { FaHeart } from "react-icons/fa";
 import { FaHandshakeAngle } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -29,14 +30,14 @@ const Hero = () => {
               </p>
               <div className="buttons">
                 <button className="login-btn">
-                  <a href="/pages/login.html" className="l-btn">
+                  <Link to={"/auth"} className="l-btn">
                     Login
-                  </a>
+                  </Link>
                 </button>
                 <button className="signup-btn">
-                  <a href="/pages/signup.html" className="l-btn">
+                  <Link to={"/auth"} className="l-btn">
                     Sign Up
-                  </a>
+                  </Link>
                 </button>
               </div>
             </div>

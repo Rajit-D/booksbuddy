@@ -1,17 +1,15 @@
-import Categories from "./components/Categories/Categories.jsx";
-import Copyright from "./components/Copyright/Copyright.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Hero from "./components/Hero/Hero.jsx";
-import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs.jsx";
-
+import Auth from "./pages/Auth";
+import Dashboard from "./pages/Dashboard";
+import Home from "./pages/Home";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Hero />
-      <Categories />
-      <WhyChooseUs />
-      <Footer />
-      <Copyright />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
     </>
   );
 }
