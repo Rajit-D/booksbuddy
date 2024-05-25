@@ -1,3 +1,5 @@
+import "./CodeCate.css"
+
 const CodeCate = () => {
   return (
     <div>

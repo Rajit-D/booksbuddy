@@ -1,3 +1,6 @@
+import "./AboutUs.css";
+import img from "../../assets/images/Exams-pana.png";
+
 const AboutUs = () => {
   return (
     <div className="wrapper">
@@ -7,7 +10,7 @@ const AboutUs = () => {
       </div>
       <div className="about-container">
         <div className="image-container">
-          <img src="/images/Exams-pana.png" alt="..." />
+          <img src={img} alt="..." />
         </div>
 
         <div className="text-container">
