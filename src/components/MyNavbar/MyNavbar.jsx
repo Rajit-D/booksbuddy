@@ -31,14 +31,14 @@ const MyNavbar = () => {
             >
               <Offcanvas.Header closeButton className="bg-dark">
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  BooksBuddy
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="bg-dark">
                 <Nav className="justify-content-end flex-grow-1 pe-3 bg-dark">
                   <Nav.Link href="#">Home</Nav.Link>
-                  <Nav.Link href="../../pages/about.html">About us</Nav.Link>
-                  <Nav.Link href="../../pages/community.html">
+                  <Nav.Link href="/about">About us</Nav.Link>
+                  <Nav.Link href="/community">
                     Community
                   </Nav.Link>
 
@@ -47,31 +47,31 @@ const MyNavbar = () => {
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                     className="bg-dark"
                   >
-                    <NavDropdown.Item href="../../pages/code_cate.html">
+                    <NavDropdown.Item href="/codecate">
                       Coding
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="../../pages/sem.html">
+                    <NavDropdown.Item href="/sem">
                       Semester-wise Materials
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="../../pages/gate.html">
+                    <NavDropdown.Item href="/gate">
                       GATE Preparation
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="../../pages/placement.html">
+                    <NavDropdown.Item href="/placement">
                       Placement Materials
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="../../pages/ebooks.html">
+                    <NavDropdown.Item href="/ebooks">
                       Ebooks & Notes
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="../../pages/misle.html">
+                    <NavDropdown.Item href="/misle">
                       Miscellaneous
                     </NavDropdown.Item>
                   </NavDropdown>
 
-                  <Nav.Link href="../../pages/contact.html">
+                  <Nav.Link href="/contact">
                     Contact Us
                   </Nav.Link>
-                  <Nav.Link href="../../pages/login.html">Log In</Nav.Link>
-                  <Nav.Link href="../../pages/signup.html">Sign Up</Nav.Link>
+                  {/* <Nav.Link href="../../pages/login.html">Log In</Nav.Link>
+                  <Nav.Link href="../../pages/signup.html">Sign Up</Nav.Link> */}
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control
